@@ -1,0 +1,310 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use App\Kecamatan;
+
+class KecamatansTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Kecamatan::create([
+            'kabupaten_id'=>'1',
+            'name'=>'ABIANSEMAL',
+            'slug'=>'abiansemal'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'1',
+            'name'=>'MENGWI',
+            'slug'=>'mengwi'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'1',
+            'name'=>'KUTA',
+            'slug'=>'kuta'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'1',
+            'name'=>'KUTA UTARA',
+            'slug'=>'kuta-utara'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'1',
+            'name'=>'KUTA SELATAN',
+            'slug'=>'kuta-selatan'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'1',
+            'name'=>'PETANG',
+            'slug'=>'petang'
+        ]);
+         Kecamatan::create([
+            'kabupaten_id'=>'2',
+            'name'=>'BANGLI',
+            'slug'=>'bangli'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'2',
+            'name'=>'KINTAMANI',
+            'slug'=>'kintamani'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'2',
+            'name'=>'SUSUT',
+            'slug'=>'susut'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'2',
+            'name'=>'TEMBUKU',
+            'slug'=>'tembuku'
+        ]);
+
+        
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'BANJAR',
+            'slug'=>'banjar'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'BULELENG',
+            'slug'=>'buleleng'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'BUSUNGBIU',
+            'slug'=>'busungbiu'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'GEROKGAK',
+            'slug'=>'gerokgak'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'KUBUTAMBAHAN',
+            'slug'=>'kubutambahan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'SAWAN',
+            'slug'=>'sawan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'SERIRIT',
+            'slug'=>'seririt'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'SUKASADA',
+            'slug'=>'sukasada'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'3',
+            'name'=>'TEJAKULA',
+            'slug'=>'tejakula'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'4',
+            'name'=>'BLAHBATUH',
+            'slug'=>'blahbatuh'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'4',
+            'name'=>'GIANYAR',
+            'slug'=>'gianyar'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'4',
+            'name'=>'PAYANGAN',
+            'slug'=>'payangan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'4',
+            'name'=>'SUKAWATI',
+            'slug'=>'sukawati'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'4',
+            'name'=>'TAMPAKSIRING',
+            'slug'=>'tampaksiring'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'4',
+            'name'=>'TEGALLALANG',
+            'slug'=>'tegallalang'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'4',
+            'name'=>'UBUD',
+            'slug'=>'ubud'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'5',
+            'name'=>'JEMBRANA',
+            'slug'=>'jembrana'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'5',
+            'name'=>'MELAYA',
+            'slug'=>'melaya'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'5',
+            'name'=>'MENDOYO',
+            'slug'=>'mendoyo'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'5',
+            'name'=>'NEGARA',
+            'slug'=>'negara'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'5',
+            'name'=>'PEKUTATAN',
+            'slug'=>'pekutatan'
+        ]);
+
+
+        Kecamatan::create([
+            'kabupaten_id'=>'6',
+            'name'=>'ABANG',
+            'slug'=>'abang'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'6',
+            'name'=>'BEBANDEM',
+            'slug'=>'bebandem'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'6',
+            'name'=>'KARANGASEM',
+            'slug'=>'karangasem'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'6',
+            'name'=>'KUBU',
+            'slug'=>'kubu'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'6',
+            'name'=>'MANGGIS',
+            'slug'=>'manggis'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'6',
+            'name'=>'RENDANG',
+            'slug'=>'rendang'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'6',
+            'name'=>'SELAT',
+            'slug'=>'selat'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'7',
+            'name'=>'BANJARANGKAN',
+            'slug'=>'banjarangkan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'7',
+            'name'=>'DAWAN',
+            'slug'=>'dawan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'7',
+            'name'=>'KLUNGKUNG',
+            'slug'=>'klungkung'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'7',
+            'name'=>'NUSAPENIDA',
+            'slug'=>'nusapenida'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'8',
+            'name'=>'DENPASAR BARAT',
+            'slug'=>'denpasar-barat'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'8',
+            'name'=>'DENPASAR SELATAN',
+            'slug'=>'denpasar-selatan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'8',
+            'name'=>'DENPASAR TIMUR',
+            'slug'=>'denpasar-timur'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'8',
+            'name'=>'DENPASAR UTARA',
+            'slug'=>'denpasar-utara'
+        ]);
+
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'BATURITI',
+            'slug'=>'baturiti'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'KEDIRI',
+            'slug'=>'kediri'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'KERAMBITAN',
+            'slug'=>'kerambitan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'MARGA',
+            'slug'=>'marga'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'PENEBEL',
+            'slug'=>'penebel'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'PUPUAN',
+            'slug'=>'pupuan'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'SELEMADEG',
+            'slug'=>'selemadeg'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'SELEMADEG BARAT',
+            'slug'=>'selemadeg-barat'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'SELEMADEG TIMUR',
+            'slug'=>'selemadeg-timur'
+        ]);
+        Kecamatan::create([
+            'kabupaten_id'=>'9',
+            'name'=>'TABANAN',
+            'slug'=>'tabanan'
+        ]);
+    }
+}
